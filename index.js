@@ -22,8 +22,8 @@ async function listDB(client) {
 
         console.log("Lista baz danych:");
 
-        databaseList.forEach(database => {
-            console.log("Nazwa: " + database.name + " ,Rozmiar: " + databaase.sizeOnDisk);
+        databaseList.databases.forEach(database => {
+            console.log("Nazwa: " + database.name + " ,Rozmiar: " + database.sizeOnDisk);
         })
 }
 
